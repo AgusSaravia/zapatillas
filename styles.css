@@ -1,0 +1,81 @@
+.hero_image {
+
+    border-radius: 5px;
+
+}
+
+* {
+    font-family: Roboto;
+}
+
+
+@media screen and(width < 900) {
+    .hero_image {
+        gap: 10rem;
+    }
+}
+
+
+
+.card__tags,
+.card__shoe_info {
+    position: relative;
+}
+
+
+
+.color {
+    position: relative;
+    bottom: 30px;
+    font-size: .8rem;
+    color: gray;
+
+}
+
+div.card__shoe_info>span.model {
+    position: absolute;
+    bottom: 50px;
+}
+
+div.card__tags>span.sale {
+    background-color: black;
+    right: 10px;
+}
+
+div.card__tags>span.price {
+    background-color: red;
+    position: absolute;
+    left: 10px;
+}
+
+div.card__tags>span {
+    color: whitesmoke;
+    padding: .2rem;
+    position: absolute;
+    top: 10px;
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.img_model-001 {
+    height: 30svh;
+    width: 100%;
+}
+
+.model_001 {
+    position: relative;
+}
+
+.introduced_model,
+.release_date {
+    color: white;
+    position: absolute;
+}
+
+.release_date {
+    top: 55%;
+}
